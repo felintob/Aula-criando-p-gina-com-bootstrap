@@ -1,0 +1,97 @@
+@import url('https://fonts.google.com/specimen/Luckiest+Guy');
+
+body {
+    position: relative;
+    background: url('https://images.pexels.com/photos/2235302/pexels-photo-2235302.jpeg?cs=srgb&dl=pexels-evgeny-tchebotarev-2235302.jpg&fm=jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-width: 200px;
+    min-height: 200px;
+    color: #fff;
+    font-family: 'Luckiest Guy';
+}
+
+
+.fa {
+    font-size: 50px;
+}
+
+#about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: auto;
+    color: black;
+    background-color: purple;
+    text-align: Center;
+    
+}
+
+p {
+    padding-right: 15%;
+    padding-left: 15%;
+    font-size: 150%;
+}
+
+.smaller-img{
+    width: 400px;
+    padding: 20px;
+  }
+
+  #Portifolio {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      padding-right: 15%;
+      padding-left: 15%;
+      height: auto;
+      color: #fff;
+      text-align: Center;
+      background-color: black;
+  }
+  section {
+    color: #FFF;
+    margin: 40px 0;
+  }
+
+  #contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: auto;
+    color: #fff;
+    text-align: Center;
+}
+
+.icons {
+    text-align: center;
+    max-width: 800px;
+    max-height: 300px;
+    margin-left: 265px;
+  
+}
+.socialMediaSpan {
+    border: 1px solid;
+    border-color: rgba(10, 10, 10, 0);
+    border-radius: 10%;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 90px;
+    margin: 0px;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+}
+
+.facebookBtn:hover {
+    color: rgba(59, 89, 152, 1);
+}
+.twitterBtn:hover {
+    color: rgba(0, 171, 227, 1);
+}
+.linkedinBtn:hover {
+    color: rgba(0, 148, 188, 1);
+}
+.instagramBtn:hover {
+    color: rgba(223, 64, 113, 1);
+}
